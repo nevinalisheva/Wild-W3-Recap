@@ -13,5 +13,6 @@ Following the series of steps defined there are crucial, because:
 
 #### Commands
 ----
+`$ git branch` shows all the branches
 
 
