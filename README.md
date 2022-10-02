@@ -66,7 +66,7 @@ This way you disregard the changes you made at the referred commit.
 
 `$ $ git reset <referenceNumber> --hard`  It will permanently delete the commits and the code
 
-*After making the commit you realize that you need to add something to you html. Edit your html, do a `$git add <html>*` and then type the following command:*
+*After making the commit you realize that you need to add something to you html. Edit your html, do a `$git add <html>` and then type the following command:*
 
 `$git commit --amend -m "Some Message"`changes the previous commit you made
 
