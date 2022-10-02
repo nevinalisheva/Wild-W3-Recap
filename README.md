@@ -51,7 +51,7 @@ Following the series of steps defined there are crucial, because:
 
 *Source: https://www.youtube.com/watch?v=sgzkY5vFKQQ&t=127s*
 
-##### Delete or Revert
+#### Delete or Revert
 
 `$ git branch -d thirsty` deletes branch thirsty
 
@@ -86,7 +86,7 @@ Use document`document.getElementById` or `document.getElementByTagName` to selec
 
 If you want to get an array with multiple elements you can use `document.querySelectorAll`.
 
-The document object comes with many properties and methods. Here is a list to all those methods: https://developer.mozilla.org/en-US/docs/Web/API/Document
+The document object comes with many properties and methods. Here is a list to all those methods: https://developer.mozilla.org/en-US/docs/Web/API/Document.
 
 `InnerHTML`
 
@@ -96,7 +96,7 @@ The innerHTML method is used to change the content of a HTML tag.
 const title = document.querySelector('.title');
 title.innerHTML = "Hello, Bob!";
 ```
-In this example, we select the h1 with the title class, and we change the content for Hello, Bob!
+In this example, we select the h1 with the title class, and we change the content to `Hello, Bob!`.
 
 #### Create new HTML element
 
@@ -121,7 +121,7 @@ In this example, it will add newCatImage at the end of document.body:
 ```
 document.body.appendChild(newCatImage);
 ```
-This method is also available on other HTML nodes, for example, you can use it to add an element to a <div>.
+This method is also available on other HTML nodes, for example, you can use it to add an element to a div.
 
 ```
 const myDiv = document.querySelector('.myDiv');
@@ -296,15 +296,3 @@ By running an install command inside a project, you can install all of the depen
 `node_modules` contains all the code related to the packages we use.
 
 > Important: Do not ever commit and push your node_modules folder to Github! It will make your repository too heavy. When you start a new Node project, make sure you have a `.gitignore` file at the root of the project with node_modules inside. You can simply run `echo node_modules/ >> .gitignore` if it's not the case.
-
-
-
-
-Here is a link to the elaborate guide of Github: https://guides.github.com/activities/hello-world/
-Following the series of steps defined there are crucial, because:
-
-- Minimizes the risk of conflicts by preventing several devs from working on the same code at the same time (through the use of branches);
-- Making it easier to control  the code produced by each dev, which ensures the quality of the project (through the use of pull requests ).
-
-
-
