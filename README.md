@@ -50,6 +50,7 @@ Following the series of steps defined there are crucial, because:
 `$ git pull origin master`  pulls the newest version available on github
 
 #####Delete or Revert
+
 `$ git branch -d thirsty` deletes branch thirsty
 
 `$ git log --oneline` shows you all the commits with a reference number
