@@ -96,7 +96,7 @@ The innerHTML method is used to change the content of a HTML tag.
 const title = document.querySelector('.title');
 title.innerHTML = "Hello, Bob!";
 ```
-In this example, we select the h1 with the title class, and we change the content to `Hello, Bob!`.
+In this example, we select the h1 with the title class, and we change the content to *Hello, Bob!*.
 
 #### Create new HTML element
 
