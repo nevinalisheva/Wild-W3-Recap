@@ -49,7 +49,7 @@ Following the series of steps defined there are crucial, because:
 
 `$ git pull origin master`  pulls the newest version available on github
 
-#####Delete or Revert
+##### Delete or Revert
 
 `$ git branch -d thirsty` deletes branch thirsty
 
