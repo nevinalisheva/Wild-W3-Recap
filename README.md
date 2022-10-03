@@ -21,7 +21,7 @@ Following the series of steps defined there are crucial, because:
 
 *after making some changes on your code in file called thirsty.html*
 
-`$ git add hungry.html` before doing git commit (saving your changes) you need to add which files you want to commit
+`$ git add thirsty.html` before doing git commit (saving your changes) you need to add which files you want to commit
 
 `$ git add .` simply adds all the files in the folder
 
