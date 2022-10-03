@@ -281,7 +281,7 @@ Some packages have security vulnerabilities and some of them are even malicious.
 - Major projects rely on this package
 - The package is unit-tested, with good code coverage
 - Important issues that might affect us are being addressed quickly
-- There is a big, community behind it (lots of weekly downloads, lots of Github stars).
+- There is a big community behind it (lots of weekly downloads, lots of Github stars).
 
 `npm install <package>` installs a package from NPM
 
