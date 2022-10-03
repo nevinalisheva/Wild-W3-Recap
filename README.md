@@ -259,14 +259,14 @@ module.exports = {
 const userInfo = require('./userInformation')
 ```
 
-  ### What is a NPM?
+  ### What is NPM?
   
  The world's largest Software Library (Registry) NPM is also a software Package Manager and Installer.
 NPM allows us to install and manage pieces of reusable code that we can import (require) in our projects. Those pieces of code are called "packages", "dependencies", or "external modules".
 
 Be careful while using the packages you find on NPM. First it's important to decide whether you really need a package or not. Then you should take a look at the:
 - The package description (what problems it tries to solve, the main features currently supported,...)
-- -The installation process
+- The installation process
 - Usage examples
 - A link to a more detailed documentation
 - Licensing information https://medium.com/@vovabilonenko/licenses-of-npm-dependencies-bacaa00c8c65 https://www.npmjs.com/package/legally (A tool to discover the licenses of the packages you are using)
